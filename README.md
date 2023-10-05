@@ -14,12 +14,12 @@ Potential Profit: For correctly identified good payers, I determined the profit 
 
 The models used were: Random Forest, Naive Bayes and Artificial Neural Network. The first three models used all variables in the database to predict good or bad payers. The last three used only those most related to the target, default. The results were:
 
-Model 1 (Random Forest): Loss: 107222.66, Profit: -100074.48, Default: 0%
-Model 2 (Naive Bayes): Loss: 62246.93, Profit: 30679.37, Default: 5.5%
-Model 3 (Neural Network): Loss: 92926.30, Profit: -71481.77, Default: 0%
-Model 4 (Random Forest): Loss: 81682.37, Profit: -38793.31, Default: 1%
-Model 5 (Naive Bayes): Loss: 48452.85, Profit: 65917.98, Default: 6.5%
-Model 6 (Neural Network): Loss: 55639.81, Profit: 15841.95, Default: 1.7%
+Model 1 (Random Forest): Loss: 107222.66, Profit: -100074.48, Default: 0%                                                                                                               
+Model 2 (Naive Bayes): Loss: 62246.93, Profit: 30679.37, Default: 5.5%                                                                                                                  
+Model 3 (Neural Network): Loss: 92926.30, Profit: -71481.77, Default: 0%                                                                                                                
+Model 4 (Random Forest): Loss: 81682.37, Profit: -38793.31, Default: 1%                                                                                                                  
+Model 5 (Naive Bayes): Loss: 48452.85, Profit: 65917.98, Default: 6.5%                                                                                                                   
+Model 6 (Neural Network): Loss: 55639.81, Profit: 15841.95, Default: 1.7%                                                                                                                
 
 Note that the default rate for each model was calculated considering the proportion of "good-bad" (defaulters classified as good payers) in relation to the 290 customers in the test set.
 
